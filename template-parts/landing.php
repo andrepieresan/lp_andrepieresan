@@ -1,0 +1,186 @@
+<?php
+
+/**
+ * Static landing content.
+ *
+ * @package Andre_Pieresan_Landing
+ */
+
+$portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
+?>
+<main id="conteudo" class="site-main">
+	<section id="topo" class="hero" aria-labelledby="hero-title">
+		<div class="hero__media" aria-hidden="true">
+			<img src="<?php echo esc_url($portrait); ?>" alt="">
+		</div>
+		<div class="matrix-rain" data-matrix-rain aria-hidden="true"></div>
+		<div class="hero__overlay" aria-hidden="true"></div>
+		<div class="hero__inner">
+			<p class="eyebrow">Engenheiro de Software Sênior | Curitiba, PR</p>
+			<h1 id="hero-title">André Pieresan</h1>
+			<p class="hero__lead">Arquitetura, automação e APIs para produtos digitais B2B que precisam sair do improviso e ganhar escala.</p>
+			<div class="signal-strip" aria-label="Frentes de atuação">
+				<span>API Gateway</span>
+				<span>Data Crawlers</span>
+				<span>SaaS Runtime</span>
+			</div>
+			<div class="hero__actions" aria-label="Ações principais">
+				<a class="button button--primary"
+					href="https://wa.me/5545991463233"
+					target="_blank">Vamos conversar</a>
+				<a class="button button--ghost" href="#experiencia">Ver experiência</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="proof-band" aria-label="Resumo profissional">
+		<div class="proof-band__inner">
+			<div>
+				<strong>6+</strong>
+				<span>anos no fluxo completo de desenvolvimento de
+					software</span>
+			</div>
+			<div>
+				<strong>SaaS</strong>
+				<span>arquitetura, produto e entrega em produção</span>
+			</div>
+			<div>
+				<strong>B2B</strong>
+				<span>automação, integrações e operação comercial</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="intro-section" aria-label="Posicionamento">
+		<div class="section-grid">
+			<p class="section-kicker">Perfil</p>
+			<div>
+				<h2>Desenvolvimento com visão de produto, negócio e operação.</h2>
+				<p>Atuo do desenho da arquitetura até o deploy, conectando frontend, backend, infraestrutura e automações para resolver demandas complexas com clareza técnica e senso comercial.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="especialidades" class="section section--dark" aria-labelledby="specialties-title">
+		<div class="section-grid">
+			<p class="section-kicker">Especialidades</p>
+			<div>
+				<h2 id="specialties-title">Onde entro para acelerar.</h2>
+				<div class="feature-grid">
+					<article class="feature-card">
+						<span>01</span>
+						<h3>Automação e scraping</h3>
+						<p>Crawlers, Puppeteer, rotinas de extração de dados e algoritmos para reduzir operação manual.</p>
+					</article>
+					<article class="feature-card">
+						<span>02</span>
+						<h3>APIs e integrações</h3>
+						<p>APIs em PHP e JavaScript conectadas a bancos relacionais, CRMs, montadoras e fluxos de leads.</p>
+					</article>
+					<article class="feature-card">
+						<span>03</span>
+						<h3>SaaS e interfaces</h3>
+						<p>Aplicações web com fluxos intuitivos, frontend integrado e arquitetura pronta para evoluir.</p>
+					</article>
+					<article class="feature-card">
+						<span>04</span>
+						<h3>Infra e entrega</h3>
+						<p>Servidores, Docker, Kubernetes, Git, FTP e rotinas de deploy com foco em estabilidade.</p>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="experiencia" class="section" aria-labelledby="experience-title">
+		<div class="section-grid">
+			<p class="section-kicker">Experiência</p>
+			<div>
+				<h2 id="experience-title">Histórico em produto, automação e relacionamento B2B.</h2>
+				<div class="timeline">
+					<article class="timeline-item">
+						<div class="timeline-date">2022 - 2025</div>
+						<div>
+							<h3>DealerUp - Sistemas para Concessionárias</h3>
+							<p>Desenvolvedor Sênior em arquiteturas frontend e backend, web scraping, APIs PHP/JavaScript, MySQL, homologação de leads e deploys com Kubernetes.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-date">2019 - 2025</div>
+						<div>
+							<h3>GETOS - Sistema de Gestão de Ordem de Serviço</h3>
+							<p>Liderança técnica em SaaS: arquitetura, escolha de stack, interfaces dinâmicas, integração com APIs, infraestrutura e versionamento seguro.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-date">2017 - 2024</div>
+						<div>
+							<h3>BRN Automações</h3>
+							<p>Gestão de projetos técnicos, relacionamento com clientes B2B, apresentação de produto e alinhamento entre viabilidade técnica e expectativa comercial.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-date">2017 - 2022</div>
+						<div>
+							<h3>Base técnica em TI e suporte</h3>
+							<p>Atuação com redes, Linux, Windows, hardware, terminais de autoatendimento e infraestrutura educacional em escala nacional.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="stack" class="section section--dark" aria-labelledby="stack-title">
+		<div class="section-grid">
+			<p class="section-kicker">Stack</p>
+			<div>
+				<h2 id="stack-title">Ferramentas para construir e entregar.</h2>
+				<ul class="stack-list" aria-label="Tecnologias">
+					<li>JavaScript</li>
+					<li>TypeScript</li>
+					<li>PHP</li>
+					<li>Node.js</li>
+					<li>AdonisJS</li>
+					<li>Laravel</li>
+					<li>Vue 3</li>
+					<li>React</li>
+					<li>Quasar</li>
+					<li>Puppeteer</li>
+					<li>MySQL</li>
+					<li>MongoDB</li>
+					<li>Docker</li>
+					<li>Kubernetes</li>
+					<li>Git</li>
+					<li>N8N</li>
+					<li>Python</li>
+					<li>Go</li>
+				</ul>
+				<div class="certs">
+					<h3>Formação recente</h3>
+					<p>Agentes de IA, streams em Node.js, padrões de API, React/React Native, PHP, HTML5, CSS3, Node.js, MongoDB e MySQL.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contato" class="contact-section" aria-labelledby="contact-title">
+		<div class="contact-inner">
+			<p class="section-kicker">Contato</p>
+			<h2 id="contact-title">Precisa de alguém para tirar automações, APIs ou SaaS do papel?</h2>
+			<p>Estou em Curitiba e trabalho conectando engenharia, operação e negócio para entregar software que sustenta crescimento real.</p>
+			<div class="contact-actions">
+				<a class="button button--primary" href="mailto:andrepieresan@gmail.com">andrepieresan@gmail.com</a>
+				<a class="button button--ghost"
+					href="https://wa.me/5545991463233"
+					target="_blank">+55 45 99146-3233</a>
+				<button class="button button--copy" type="button" data-copy-email="andrepieresan@gmail.com">Copiar email</button>
+			</div>
+			<div class="social-row" aria-label="Perfis e portfolio">
+				<a href="https://linkedin.com/in/andrepieresan/" target="_blank" rel="noreferrer">LinkedIn</a>
+				<a href="https://github.com/andrepieresan" target="_blank" rel="noreferrer">GitHub</a>
+				<a href="https://getoservices.com.br/" target="_blank" rel="noreferrer">GETOS</a>
+			</div>
+		</div>
+	</section>
+</main>
