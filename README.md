@@ -11,11 +11,12 @@ Tema WordPress instalável com uma landing page moderna, escura e minimalista pa
 
 ## Conteudo incluido
 
-- Hero com foto profissional e camada visual inspirada em Matrix.
-- Resumo de posicionamento.
-- Especialidades em automação, APIs, SaaS e infraestrutura.
-- Linha do tempo profissional baseada no currículo.
-- Stack técnica e certificados.
+- Hero com imagem de Agentic Engineering e camada visual inspirada em Matrix.
+- Prévia social com o posicionamento profissional atualizado.
+- Posicionamento como Software Engineer e Agentic Engineer.
+- Especialidades em agentes de IA, automação, APIs, SaaS, infraestrutura e qualidade.
+- Linha do tempo profissional e projetos técnicos baseada no currículo atualizado.
+- Competências técnicas organizadas por área e formação recente.
 - Links de contato, LinkedIn, GitHub e GETOS.
 
 O tema não depende de plugins externos ou build steps.

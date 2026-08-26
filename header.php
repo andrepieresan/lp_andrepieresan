@@ -27,5 +27,5 @@
 		<a href="#stack">Stack</a>
 		<a href="#contato">Contato</a>
 	</nav>
-	<a class="header-contact" href="https://wa.me/5545991463233" target="_blank">Falar agora</a>
+	<a class="header-contact" href="https://wa.me/5545991463233" target="_blank" rel="noreferrer">Falar agora</a>
 </header>

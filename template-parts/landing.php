@@ -6,28 +6,35 @@
  * @package Andre_Pieresan_Landing
  */
 
-$portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
+$portrait = get_template_directory_uri() . '/assets/img/andre-pieresan-agentic.jpeg';
 ?>
 <main id="conteudo" class="site-main">
 	<section id="topo" class="hero" aria-labelledby="hero-title">
 		<div class="hero__media" aria-hidden="true">
-			<img src="<?php echo esc_url($portrait); ?>" alt="">
+			<img
+				src="<?php echo esc_url($portrait); ?>"
+				width="1086"
+				height="1448"
+				alt=""
+				fetchpriority="high"
+				decoding="async">
 		</div>
 		<div class="matrix-rain" data-matrix-rain aria-hidden="true"></div>
 		<div class="hero__overlay" aria-hidden="true"></div>
 		<div class="hero__inner">
-			<p class="eyebrow">Engenheiro de Software Sênior | Curitiba, PR</p>
+			<p class="eyebrow">Software Engineer | Agentic Engineer | Curitiba, PR</p>
 			<h1 id="hero-title">André Pieresan</h1>
-			<p class="hero__lead">Arquitetura, automação e APIs para produtos digitais B2B que precisam sair do improviso e ganhar escala.</p>
+			<p class="hero__lead">Engenharia de software e agentes de IA para modernizar plataformas, automatizar operações e levar produtos B2B à escala.</p>
 			<div class="signal-strip" aria-label="Frentes de atuação">
-				<span>API Gateway</span>
-				<span>Data Crawlers</span>
-				<span>SaaS Runtime</span>
+				<span>Agentic Workflows</span>
+				<span>SaaS Platforms</span>
+				<span>Production Systems</span>
 			</div>
 			<div class="hero__actions" aria-label="Ações principais">
 				<a class="button button--primary"
 					href="https://wa.me/5545991463233"
-					target="_blank">Vamos conversar</a>
+					target="_blank"
+					rel="noreferrer">Vamos conversar</a>
 				<a class="button button--ghost" href="#experiencia">Ver experiência</a>
 			</div>
 		</div>
@@ -36,17 +43,16 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 	<section class="proof-band" aria-label="Resumo profissional">
 		<div class="proof-band__inner">
 			<div>
-				<strong>6+</strong>
-				<span>anos no fluxo completo de desenvolvimento de
-					software</span>
+				<strong>7 anos</strong>
+				<span>em engenharia de software, da arquitetura à produção</span>
 			</div>
 			<div>
-				<strong>SaaS</strong>
-				<span>arquitetura, produto e entrega em produção</span>
+				<strong>9 anos</strong>
+				<span>em tecnologia, produto, operação e relacionamento B2B</span>
 			</div>
 			<div>
-				<strong>B2B</strong>
-				<span>automação, integrações e operação comercial</span>
+				<strong>Agentic</strong>
+				<span>agentes de IA com supervisão, guardrails e validação</span>
 			</div>
 		</div>
 	</section>
@@ -55,8 +61,8 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 		<div class="section-grid">
 			<p class="section-kicker">Perfil</p>
 			<div>
-				<h2>Desenvolvimento com visão de produto, negócio e operação.</h2>
-				<p>Atuo do desenho da arquitetura até o deploy, conectando frontend, backend, infraestrutura e automações para resolver demandas complexas com clareza técnica e senso comercial.</p>
+				<h2>Engenharia conectada a produto, negócio e operação.</h2>
+				<p>Atuo em todo o ciclo de desenvolvimento, da arquitetura à operação em produção, com experiência em plataformas SaaS multi-tenant, automações, crawlers e integrações de alto volume. Aplico agentes de IA para explorar bases de código, decompor problemas, implementar, testar e documentar mudanças com supervisão humana e validação por evidências.</p>
 			</div>
 		</div>
 	</section>
@@ -65,27 +71,27 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 		<div class="section-grid">
 			<p class="section-kicker">Especialidades</p>
 			<div>
-				<h2 id="specialties-title">Onde entro para acelerar.</h2>
+				<h2 id="specialties-title">Onde tecnologia vira resultado.</h2>
 				<div class="feature-grid">
 					<article class="feature-card">
 						<span>01</span>
-						<h3>Automação e scraping</h3>
-						<p>Crawlers, Puppeteer, rotinas de extração de dados e algoritmos para reduzir operação manual.</p>
+						<h3>Agentic Engineering</h3>
+						<p>Agentes de IA, engenharia de contexto, decomposição de tarefas, fluxos multiagente, human-in-the-loop e guardrails.</p>
 					</article>
 					<article class="feature-card">
 						<span>02</span>
-						<h3>APIs e integrações</h3>
-						<p>APIs em PHP e JavaScript conectadas a bancos relacionais, CRMs, montadoras e fluxos de leads.</p>
+						<h3>APIs e modernização</h3>
+						<p>APIs nativas, integrações e evolução de sistemas legados com compatibilidade, fallback e continuidade operacional.</p>
 					</article>
 					<article class="feature-card">
 						<span>03</span>
-						<h3>SaaS e interfaces</h3>
-						<p>Aplicações web com fluxos intuitivos, frontend integrado e arquitetura pronta para evoluir.</p>
+						<h3>Automação e dados</h3>
+						<p>Crawlers, Puppeteer, CRM, WhatsApp e pipelines resilientes para leads, estoque, imagens e operações de alto volume.</p>
 					</article>
 					<article class="feature-card">
 						<span>04</span>
-						<h3>Infra e entrega</h3>
-						<p>Servidores, Docker, Kubernetes, Git, FTP e rotinas de deploy com foco em estabilidade.</p>
+						<h3>SaaS, infra e qualidade</h3>
+						<p>Produtos multi-tenant, Docker, Kubernetes, CI/CD, observabilidade e testes para entregas seguras em produção.</p>
 					</article>
 				</div>
 			</div>
@@ -94,22 +100,36 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 
 	<section id="experiencia" class="section" aria-labelledby="experience-title">
 		<div class="section-grid">
-			<p class="section-kicker">Experiência</p>
+			<p class="section-kicker">Trajetória</p>
 			<div>
-				<h2 id="experience-title">Histórico em produto, automação e relacionamento B2B.</h2>
+				<h2 id="experience-title">Experiência profissional e projetos relevantes.</h2>
 				<div class="timeline">
 					<article class="timeline-item">
-						<div class="timeline-date">2022 - 2025</div>
+						<div class="timeline-date">2022 - Atual</div>
 						<div>
 							<h3>DealerUp - Sistemas para Concessionárias</h3>
-							<p>Desenvolvedor Sênior em arquiteturas frontend e backend, web scraping, APIs PHP/JavaScript, MySQL, homologação de leads e deploys com Kubernetes.</p>
+							<p>Engenharia de software em um ecossistema de crawlers e integrações automotivas. Modernização em TypeScript, APIs Fastify, automações Puppeteer, workers Bun, MySQL, Kubernetes, Helm e validações automatizadas.</p>
 						</div>
 					</article>
 					<article class="timeline-item">
-						<div class="timeline-date">2019 - 2025</div>
+						<div class="timeline-date">2019 - Atual</div>
 						<div>
 							<h3>GETOS - Sistema de Gestão de Ordem de Serviço</h3>
-							<p>Liderança técnica em SaaS: arquitetura, escolha de stack, interfaces dinâmicas, integração com APIs, infraestrutura e versionamento seguro.</p>
+							<p>Arquitetura e evolução de uma plataforma SaaS multi-tenant, conectando Vue 3/Quasar, APIs AdonisJS/Fastify, MySQL, MongoDB, Prisma, CI/CD, Docker, Nginx, VPS e Vercel.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-date">2026</div>
+						<div>
+							<h3>Sellbot - Modernização de CRM, automação e agentes</h3>
+							<p>Migração de operações n8n para APIs NestJS/Fastify, backends multi-tenant, testes de paridade e estratégias de contexto, estado, persistência e continuidade para agentes conversacionais.</p>
+						</div>
+					</article>
+					<article class="timeline-item">
+						<div class="timeline-date">2026</div>
+						<div>
+							<h3>Gnosis Flow - Hierarquia organizacional e jornada de dados</h3>
+							<p>Implementação de hierarquia territorial, gestão de usuários e jornadas de leads e membros com React, Supabase/PostgreSQL, RLS, RPCs e validações de integridade.</p>
 						</div>
 					</article>
 					<article class="timeline-item">
@@ -135,30 +155,40 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 		<div class="section-grid">
 			<p class="section-kicker">Stack</p>
 			<div>
-				<h2 id="stack-title">Ferramentas para construir e entregar.</h2>
-				<ul class="stack-list" aria-label="Tecnologias">
-					<li>JavaScript</li>
-					<li>TypeScript</li>
-					<li>PHP</li>
-					<li>Node.js</li>
-					<li>AdonisJS</li>
-					<li>Laravel</li>
-					<li>Vue 3</li>
-					<li>React</li>
-					<li>Quasar</li>
-					<li>Puppeteer</li>
-					<li>MySQL</li>
-					<li>MongoDB</li>
-					<li>Docker</li>
-					<li>Kubernetes</li>
-					<li>Git</li>
-					<li>N8N</li>
-					<li>Python</li>
-					<li>Go</li>
-				</ul>
+				<h2 id="stack-title">Competências para construir, validar e operar.</h2>
+				<div class="stack-groups">
+					<article>
+						<h3>Linguagens e runtimes</h3>
+						<p>TypeScript, JavaScript, SQL, PHP, Node.js, Bun e Python.</p>
+					</article>
+					<article>
+						<h3>Backend e APIs</h3>
+						<p>NestJS, Fastify, AdonisJS, Express, Laravel, REST, OpenAPI e Webhooks.</p>
+					</article>
+					<article>
+						<h3>Frontend</h3>
+						<p>React, Vue 3, Quasar, Vite e TanStack Query.</p>
+					</article>
+					<article>
+						<h3>Dados</h3>
+						<p>PostgreSQL, MySQL/MariaDB, MongoDB, Redis, Supabase e Prisma.</p>
+					</article>
+					<article>
+						<h3>Infraestrutura e entrega</h3>
+						<p>Docker, Kubernetes, Helm, Nginx, PM2, GitLab CI/CD, Vercel, SOPS e K9s.</p>
+					</article>
+					<article>
+						<h3>Agentic Engineering</h3>
+						<p>LLMs, contexto e prompts, decomposição de tarefas, fluxos multiagente, uso de ferramentas, supervisão humana e guardrails.</p>
+					</article>
+					<article>
+						<h3>Automação e qualidade</h3>
+						<p>Puppeteer, n8n, Evolution API, Salesforce Lightning, Vitest e testes de contrato, integração e paridade.</p>
+					</article>
+				</div>
 				<div class="certs">
 					<h3>Formação recente</h3>
-					<p>Agentes de IA, streams em Node.js, padrões de API, React/React Native, PHP, HTML5, CSS3, Node.js, MongoDB e MySQL.</p>
+					<p>Agentes de IA, streams e processamento de arquivos pesados em Node.js, padrões e modelagem de APIs, React/React Native, PHP, HTML5, CSS3, MongoDB e MySQL.</p>
 				</div>
 			</div>
 		</div>
@@ -167,13 +197,14 @@ $portrait = get_template_directory_uri() . '/assets/img/andre-pieresan.jpg';
 	<section id="contato" class="contact-section" aria-labelledby="contact-title">
 		<div class="contact-inner">
 			<p class="section-kicker">Contato</p>
-			<h2 id="contact-title">Precisa de alguém para tirar automações, APIs ou SaaS do papel?</h2>
-			<p>Estou em Curitiba e trabalho conectando engenharia, operação e negócio para entregar software que sustenta crescimento real.</p>
+			<h2 id="contact-title">Vamos modernizar uma plataforma, automatizar uma operação ou aplicar IA com critério?</h2>
+			<p>Estou em Curitiba e conecto engenharia, agentes de IA, operação e negócio para entregar software resiliente que sustenta crescimento real.</p>
 			<div class="contact-actions">
 				<a class="button button--primary" href="mailto:andrepieresan@gmail.com">andrepieresan@gmail.com</a>
 				<a class="button button--ghost"
 					href="https://wa.me/5545991463233"
-					target="_blank">+55 45 99146-3233</a>
+					target="_blank"
+					rel="noreferrer">+55 45 99146-3233</a>
 				<button class="button button--copy" type="button" data-copy-email="andrepieresan@gmail.com">Copiar email</button>
 			</div>
 			<div class="social-row" aria-label="Perfis e portfolio">

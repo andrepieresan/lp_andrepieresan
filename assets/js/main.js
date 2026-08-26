@@ -2,7 +2,7 @@
 	var header = document.querySelector('[data-header]');
 	var copyButton = document.querySelector('[data-copy-email]');
 	var matrixRain = document.querySelector('[data-matrix-rain]');
-	var matrixChars = '01{}[]<>/API_NODE_SAAS_DATA_EVENT_QUEUE_SYNC';
+	var matrixChars = '01{}[]<>/AGENT_LLM_CONTEXT_TOOL_GUARDRAIL_API_DATA';
 
 	function updateHeader() {
 		if (!header) {

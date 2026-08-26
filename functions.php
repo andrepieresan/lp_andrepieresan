@@ -47,3 +47,37 @@ function andre_pieresan_landing_assets() {
 	);
 }
 add_action('wp_enqueue_scripts', 'andre_pieresan_landing_assets');
+
+function andre_pieresan_landing_document_title($title) {
+	if (is_front_page()) {
+		return 'André Pieresan | Software Engineer | Agentic Engineer';
+	}
+
+	return $title;
+}
+add_filter('pre_get_document_title', 'andre_pieresan_landing_document_title');
+
+function andre_pieresan_landing_social_meta() {
+	if (!is_front_page()) {
+		return;
+	}
+
+	$title = 'André Pieresan | Software Engineer | Agentic Engineer';
+	$description = 'Engenharia de software e agentes de IA para modernizar plataformas, automatizar operações e escalar produtos B2B.';
+	$image = get_template_directory_uri() . '/assets/img/andre-pieresan-social.png';
+	?>
+	<meta name="description" content="<?php echo esc_attr($description); ?>">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="<?php echo esc_attr($title); ?>">
+	<meta property="og:description" content="<?php echo esc_attr($description); ?>">
+	<meta property="og:image" content="<?php echo esc_url($image); ?>">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="<?php echo esc_attr($title); ?>">
+	<meta name="twitter:description" content="<?php echo esc_attr($description); ?>">
+	<meta name="twitter:image" content="<?php echo esc_url($image); ?>">
+	<?php
+}
+add_action('wp_head', 'andre_pieresan_landing_social_meta', 5);
